@@ -15,8 +15,8 @@ alias xclip='xclip -selection clip'
 alias config='/usr/bin/git --git-dir=/home/youshitsune/dotfiles --work-tree=/home/youshitsune'
 export XDG_CONFIG_HOME="/home/youshitsune/.config"
 export BUN_INSTALL="$XDG_CONFIG_HOME/.bun"
-export PATH="$PATH:/home/youshitsune/.local/bin:/home/youshitsune/.config/emacs/bin/:/home/youshitsune/go/bin/:/home/youshitsune/.local/share/nvim/mason/bin:$BUN_INSTALL/bin"
-export EDITOR="vim"
+export PATH="$PATH:/home/youshitsune/.local/bin:/home/youshitsune/.config/emacs/bin/:/home/youshitsune/go/bin/:/home/youshitsune/.local/share/nvim/mason/bin:$BUN_INSTALL/bin:/home/youshitsune/.local/share/AppImage"
+export EDITOR="nvim"
 bindkey --emacs '\^L' clear-and-redraw-all
 bindkey --vi-insert '\^L' clear-and-redraw-all
 bindkey --vi-command '\^L' clear-and-redraw-all

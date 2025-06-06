@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1720049189/share/lua/5.1/?/init.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1720049189/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1720049189/lib/lua/5.1/?.so"
+local package_path_str = "/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1736781742/share/lua/5.1/?/init.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?.lua;/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1736781742/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/youshitsune/.cache/nvim/packer_hererocks/2.1.1736781742/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -79,15 +79,35 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["avante.nvim"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/avante.nvim",
+    url = "https://github.com/yetone/avante.nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["copilot.lua"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/copilot.lua",
+    url = "https://github.com/zbirenbaum/copilot.lua"
+  },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["img-clip.nvim"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/img-clip.nvim",
+    url = "https://github.com/HakonHarnes/img-clip.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -104,10 +124,21 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["mini.icons"] = {
+    config = { "\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15mini.icons\frequire\0" },
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/mini.icons",
+    url = "https://github.com/echasnovski/mini.icons"
+  },
   moonfly = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/moonfly",
     url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -124,6 +155,12 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["oil.nvim"] = {
+    config = { "\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\boil\frequire\0" },
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -139,6 +176,11 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["render-markdown.nvim"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
+    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -153,10 +195,23 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/vim-go",
     url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-slint"] = {
+    loaded = true,
+    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/vim-slint",
+    url = "https://github.com/slint-ui/vim-slint"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: mini.icons
+time([[Config for mini.icons]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15mini.icons\frequire\0", "config", "mini.icons")
+time([[Config for mini.icons]], false)
+-- Config for: oil.nvim
+time([[Config for oil.nvim]], true)
+try_loadstring("\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\boil\frequire\0", "config", "oil.nvim")
+time([[Config for oil.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

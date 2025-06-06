@@ -35,4 +35,36 @@ return require('packer').startup(function(use)
 	}
 
     use('fatih/vim-go', { run = ":GoUpdateBinaries"})
+    use 'slint-ui/vim-slint'
+    use({
+        "stevearc/oil.nvim",
+        config = function()
+            require("oil").setup()
+        end,
+    })
+
+    use({
+        'echasnovski/mini.icons',
+        config = function()
+            require('mini.icons').setup()
+        end,
+    })
+
+    
+  -- Required plugins
+  use 'stevearc/dressing.nvim'
+  use 'MunifTanjim/nui.nvim'
+  use 'MeanderingProgrammer/render-markdown.nvim'
+
+  -- Optional dependencies
+  use 'HakonHarnes/img-clip.nvim'
+  use 'zbirenbaum/copilot.lua'
+
+  -- Avante.nvim with build process
+  use {
+    'yetone/avante.nvim',
+    branch = 'main',
+    run = 'make',
+  }
+
 end)

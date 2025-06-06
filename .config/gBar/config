@@ -37,7 +37,7 @@ WorkspaceScrollOnMonitor: true
 
 WorkspaceScrollInvert: false
 
-NumWorkspaces: 9
+NumWorkspaces: 10
 
 WorkspaceHideUnused: false
 
@@ -50,7 +50,7 @@ IconsAlwaysUp: false
 CenterWidgets: true
 CenterSpace: 300
 
-DateTimeStyle: %H:%M - %a %D
+DateTimeStyle: %H:%M:%S - %a %D
 
 MaxTitleLength: 30
 
@@ -76,4 +76,3 @@ MinDownloadBytes: 0
 MaxDownloadBytes: 10485760
 MinUploadBytes:   0
 MaxUploadBytes:   5242880
-
