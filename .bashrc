@@ -187,5 +187,3 @@ fi
 #
 # eval "$(zoxide init bash)"
 #
-export OPENROUTER_API_KEY="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"
-export GEMINI_API_KEY="AIzaSyCjODvvc83fxzU3OqRbvTFqwvipHEa4aP4"

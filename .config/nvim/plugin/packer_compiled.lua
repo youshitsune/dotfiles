@@ -79,35 +79,15 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["avante.nvim"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/avante.nvim",
-    url = "https://github.com/yetone/avante.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["copilot.lua"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/copilot.lua",
-    url = "https://github.com/zbirenbaum/copilot.lua"
-  },
-  ["dressing.nvim"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/dressing.nvim",
-    url = "https://github.com/stevearc/dressing.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
-  },
-  ["img-clip.nvim"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/img-clip.nvim",
-    url = "https://github.com/HakonHarnes/img-clip.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -134,11 +114,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/moonfly",
     url = "https://github.com/bluz71/vim-moonfly-colors"
-  },
-  ["nui.nvim"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/nui.nvim",
-    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -176,11 +151,6 @@ _G.packer_plugins = {
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["render-markdown.nvim"] = {
-    loaded = true,
-    path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/render-markdown.nvim",
-    url = "https://github.com/MeanderingProgrammer/render-markdown.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/youshitsune/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -204,14 +174,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: mini.icons
-time([[Config for mini.icons]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15mini.icons\frequire\0", "config", "mini.icons")
-time([[Config for mini.icons]], false)
 -- Config for: oil.nvim
 time([[Config for oil.nvim]], true)
 try_loadstring("\27LJ\2\n1\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\boil\frequire\0", "config", "oil.nvim")
 time([[Config for oil.nvim]], false)
+-- Config for: mini.icons
+time([[Config for mini.icons]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15mini.icons\frequire\0", "config", "mini.icons")
+time([[Config for mini.icons]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
