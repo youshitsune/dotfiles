@@ -1,0 +1,78 @@
+ForceCSS: false
+
+WidgetsLeft: [Workspaces]
+
+WidgetsCenter: []
+
+WidgetsRight: [Audio, Network, RAM, CPU, Battery, Tray, Time]
+
+BatteryFolder: /sys/class/power_supply/BAT0
+
+BatteryWarnThreshold: 20
+
+DiskPartition: /
+
+DefaultWorkspaceSymbol: 
+
+ShutdownIcon: \s
+RebootIcon: 󰑐
+SleepIcon: 󰏤
+LockIcon: 
+ExitIcon: 󰗼
+BTOffIcon: 󰂲
+BTOnIcon: 󰂯
+BTConnectedIcon: 󰂱
+DevKeyboardIcon: 󰌌\s
+DevMouseIcon: 󰍽\s
+DevHeadsetIcon: 󰋋\s
+DevControllerIcon: 󰖺\s
+DevUnknownIcon: \s
+SpeakerMutedIcon: 󰝟
+SpeakerHighIcon: 󰕾
+MicMutedIcon: 󰍭
+MicHighIcon: 󰍬
+PackageOutOfDateIcon: 󰏔\s
+
+WorkspaceScrollOnMonitor: true
+
+WorkspaceScrollInvert: false
+
+NumWorkspaces: 10
+
+WorkspaceHideUnused: false
+
+UseHyprlandIPC: true
+
+Location: T
+
+IconsAlwaysUp: false
+
+CenterWidgets: true
+CenterSpace: 300
+
+DateTimeStyle: %H:%M:%S - %a %D
+
+MaxTitleLength: 30
+
+AudioInput: true
+
+AudioRevealer: true 
+
+AudioScrollSpeed: 5
+
+NetworkAdapter: wlp1s0
+
+NetworkWidget: true
+
+SensorTooltips: false
+
+SensorSize: 24
+
+NetworkIconSize: 24
+
+EnableSNI: true
+
+MinDownloadBytes: 0
+MaxDownloadBytes: 10485760
+MinUploadBytes:   0
+MaxUploadBytes:   5242880
