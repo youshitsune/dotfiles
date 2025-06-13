@@ -17,3 +17,5 @@ require('mason').setup({})
 require("mason-lspconfig").setup({
     automatic_enable = true,
 })
+
+vim.lsp.enable('clangd')
